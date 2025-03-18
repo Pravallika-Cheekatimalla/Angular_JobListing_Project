@@ -1,0 +1,9 @@
+<div class="job-listings">
+  <h1>Job Listings</h1>
+  <ul>
+    <li *ngFor="let job of jobs">
+      <span>{{ job.title }}</span>
+      <button (click)="applyForJob(job.url)">Apply</button>
+    </li>
+  </ul>
+</div>

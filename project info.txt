@@ -1,0 +1,50 @@
+Automate job applications project 
+1. download from website and install nodejs 
+2. check installaion
+node -v
+npm -v
+3. install angular using command
+npm install -g @angular/cli
+4. Install Puppeteer which helps us automate browsing tasks, such as filling out job applications on websites.
+npm install puppeteer
+5. Create a Folder for the Project
+mkdir job-backend
+cd job-backend
+6. Initialize a Node.js Project
+npm init -y
+This will generate a package.json file, which keeps track of the dependencies.
+7. Install Express (Server Framework)
+npm install express
+8. Create a Basic Backend Server (app.js)
+Create a file named app.js inside the job-backend folder.
+node app.js
+9. Create a New Angular Project
+ng new job-application-frontend
+cd job-application-frontend
+10. Install Axios (For HTTP Requests)
+npm install axios
+11. Generate a Component for Job Listings
+ng generate component job-search
+12. Update the job-search.component.ts File
+13. Update the job-search.component.html File
+14.  Run the Angular App
+ng serve
+
+
+push to git
+-----------
+git init
+echo "node_modules/" >> .gitignore
+echo "dist/" >> .gitignore
+git add .
+git commit -m "Initial commit - Angular project"
+Go to GitHub, create a new repository, and copy the remote URL
+git remote add origin https://github.com/your-username/repository-name.git
+git branch -M main
+git push -u origin main
+
+future changes
+-----------------
+git add .
+git commit -m "Updated feature XYZ"
+git push origin main
